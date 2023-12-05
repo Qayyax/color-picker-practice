@@ -69,6 +69,7 @@ button {
 span {
     display: block;
     white-space: nowrap;
+    color: black;
 }
 
 /* Container section */
