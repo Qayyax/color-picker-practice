@@ -40,17 +40,35 @@ form {
     width: 61px;
 }
 
+#custom-select,
+select,
+#color-container {
+    width: 100%;
+}
+
+#custom-select {
+    /* border: 1px solid red; */
+    position: relative;
+}
+
 select {
     padding: 0.5625em 0.8125em;
     border-radius: 6px;
-    width: 57%;
+    cursor: pointer;
+    /* appearance: none; */
+    /* -webkit-appearance: none; */
+    /* background-color: white; */
 }
 
 button {
     background-color: white;
     border-radius: 4px;
     padding: 0.8125em 0.6875em;
-    display: inline-block;
+    cursor: pointer;
+}
+span {
+    display: block;
+    white-space: nowrap;
 }
 
 /* Container section */
@@ -62,7 +80,6 @@ button {
 
 #color-container {
    display: flex; 
-   width: 100%;
    justify-content: space-around;
    align-items: center;
    padding: 0.6875em 1px;
