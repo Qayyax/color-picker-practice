@@ -1,6 +1,6 @@
 * {
- margin: 0;
- box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,6 +19,9 @@ select,
 button,
 main {
     border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+
 
 }
 
@@ -27,13 +30,13 @@ nav {
 }
 
 form {
-   display: flex; 
-   column-gap: 0.74em;
-   align-items: center;
-   justify-content: space-between;
+    display: flex;
+    column-gap: 0.74em;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#color{
+#color {
     border: 0.5px solid #D1D5DB;
     background-color: #E5E5E5;
     height: 42px;
@@ -42,7 +45,7 @@ form {
 
 #custom-select,
 select,
-#color-container {
+#hex-container {
     width: 100%;
 }
 
@@ -66,6 +69,7 @@ button {
     padding: 0.8125em 0.6875em;
     cursor: pointer;
 }
+
 span {
     display: block;
     white-space: nowrap;
@@ -79,10 +83,10 @@ span {
     height: 414px;
 }
 
-#color-container {
-   display: flex; 
-   justify-content: space-around;
-   align-items: center;
-   padding: 0.6875em 1px;
+#hex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.6875em 1px;
+    font-size: 12px;
 }
-
