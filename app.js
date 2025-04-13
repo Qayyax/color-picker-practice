@@ -29,7 +29,6 @@ function renderColors(values) {
     colorText[i].innerText = `${values[i]}`;
     colorDivs[i].addEventListener("click", () => clickToCopy(values[i]));
     colorText[i].addEventListener("click", () => clickToCopy(values[i]));
-    // Maybe I should make a UI that says copied
   }
 }
 
@@ -43,9 +42,9 @@ function clickToCopy(colorValue) {
 }
 
 // My goal for this old project is to add these features
-// - Tapping the color to copy the color to clipboard
 // - Option to have other color picker modes (RGB, Hex)
+// - Or a converter convert this to that
+// https://www.thecolorapi.com/
 //
-// So I have color divs, that just set the bg color
-// and I have colorText divs that just has the hex values
-// on each of the div, I want the onclick function for them
+// Future Todo:
+// Maybe I should make a UI that says copied
